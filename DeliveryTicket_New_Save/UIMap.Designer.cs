@@ -40,7 +40,7 @@ namespace DeliveryTicket_New_Save
 
             // Click 'Delivery Tickets' link
             Mouse.Click(uIDeliveryTicketsHyperlink, new Point(54, 2));
-            Playback.Wait(5000);
+            Playback.Wait(6000);
         }
         
         /// <summary>
