@@ -25,7 +25,6 @@ namespace DeliveryTicket_New_Save
         [TestMethod]
         public void CodedUITestMethod1()
         {
-
             this.UIMap.NavigateToWorkingDeliveryTicketFileMethod();
             this.UIMap.CreatingNewDTMethod();
             this.UIMap.NavigateToDeliveryTicketItemsTabMethod();
@@ -36,7 +35,6 @@ namespace DeliveryTicket_New_Save
             this.UIMap.CloseWorkingDeliveryTicketWindowMethod();
             this.UIMap.ClosePatientClinicalWindowMethod();
             this.UIMap.CloseCareTendApplicationMethod();
-            // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         }
 
         #region Additional test attributes
